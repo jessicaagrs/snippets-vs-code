@@ -791,5 +791,16 @@
 		"prefix": "jsa-css-module",
 		"body": "className={styles.${1:text}}",
 		"description": "Criar um className para uma tag html via css module"
+	},
+	"jsa-media-querie-mobile": {
+		"prefix": "jsa-media-querie-mobile",
+		"body": [
+			"@media (max-width: 768px) {\r",
+			"  .container {\r",
+			"    padding: 16px;\r",
+			"   }\r",
+			"}"
+		],
+		"description": "Media querie de mobile"
 	}
 }
